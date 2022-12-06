@@ -50,3 +50,30 @@ footer .footer2{
 footer .footer2 span{
     color: rgba(255, 65, 65, 0.842);
 }
+
+@media screen and (max-width: 1024px) {
+    footer .content   {
+        font-weight: 600;
+        font-size: .7rem;
+    }
+
+    footer .footer {
+        gap: 8px;
+        margin-bottom: 11px;
+    }
+
+    footer hr {
+        height: 0.2425rem;
+    }
+
+    footer .subcontent{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    footer .footer2 {
+        display: block;
+        text-align: center;
+        font-size: .6rem;
+    }    
+}

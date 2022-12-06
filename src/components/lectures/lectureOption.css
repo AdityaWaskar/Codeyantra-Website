@@ -48,3 +48,11 @@
     border: none;
     color: black;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .lectureOption .lecture_title, .lectureOption .lectures {
+        margin-left: 0;
+    }
+}

@@ -48,6 +48,7 @@
 
 @media screen and (max-width: 823px) {
     #banner .main_text{
+        gap: 10px;
         flex-direction: column;
         font-size: 6vw;
         text-shadow: 5px 0 3px #ff0b0b, 10px 0 4px #26caff;
@@ -58,6 +59,7 @@
         justify-content: start;
         padding-top: 150px;
         gap: 39px;
+        height: calc(100vh - 299px);
     }
     .firstword1{
         text-align: center;

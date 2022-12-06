@@ -40,6 +40,15 @@
 
 .event_information .event_content{
     padding-right: 50px;
+    text-align: justify;
+}
+
+.event_information .event_info{
+    margin: 0 0;
+}
+
+.event_information #next_page{
+    margin: 10px 0px;
 }
 
 #Development, #Hackthon{
@@ -92,5 +101,13 @@
     .event_information .event_content {
         padding-right: 0px;
     }
+    
+    .event_information .event_name{
+        text-align: center;
+        margin: 30px 0;
+    }
+    .know_more_arrow {
+        width: 4%;
+    }    
   }
 

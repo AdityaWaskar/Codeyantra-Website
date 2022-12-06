@@ -40,3 +40,10 @@
     margin: 4px 0 0 0;
     letter-spacing: 1px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .lecture{
+        width: auto;
+    }
+}

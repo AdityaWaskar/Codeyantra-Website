@@ -10,12 +10,12 @@ const Footer = () => {
             <div className="left">
                 <div className='content'>Codeyantra SLRTCE</div>
                 <hr />
-                <div>Decode Before Encode</div>
+                <div className='subcontent'>Decode Before Encode</div>
             </div>
             <div className="middle">
                 <div className='content'>Copyright</div>
                 <hr />
-                <div>Created by Codeyantra SLRTCE</div>
+                <div className='subcontent'>Created by Codeyantra SLRTCE</div>
             </div>
             <div className="right">
                 <div className='content'>Follow Us</div>

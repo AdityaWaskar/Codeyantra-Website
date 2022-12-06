@@ -30,3 +30,9 @@
     font-weight: 600;
     color: black;
 }
+
+@media screen and (max-width: 1024px) {
+    .symbol {
+        height: 14vh;
+    }   
+}
