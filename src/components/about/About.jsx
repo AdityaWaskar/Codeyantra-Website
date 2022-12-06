@@ -4,7 +4,7 @@ import Navigation from '../navigation/Navigation'
 import './about.css'
 
 const About = () => {
-  return (
+  return (  
     <>
         <Navigation page = {'about'}/>
         <div className="about_container">
