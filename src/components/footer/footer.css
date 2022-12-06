@@ -1,0 +1,52 @@
+footer{
+    padding: 10px 41px;
+    color: white;
+    background-color: black;
+}
+
+footer .footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .socialMedia{
+    display: flex;
+    justify-content: center;
+}
+footer .content{
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+footer .socialMedia div{
+    margin:4px 6px;
+}
+footer .right .socialMedia .icon{
+    color: white;
+    transition: all 0.9s ease;
+    font-size: 20px;
+}
+footer .right .socialMedia .icon:hover{
+    color: #e83c32;
+    cursor: pointer;
+}
+
+footer hr{
+    width: 6.75rem;
+    height: 0.3125rem;
+    background: #ee6f57;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+footer .footer2{
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+}
+footer .footer2 span{
+    color: rgba(255, 65, 65, 0.842);
+}

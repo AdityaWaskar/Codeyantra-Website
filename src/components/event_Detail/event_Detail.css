@@ -1,0 +1,96 @@
+.event_information{
+    margin: 66px 17px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.event_information .symbols{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.event_information .leftSymbols{
+    flex: 50%;
+}
+
+.event_information .rightSymbols{
+    margin-top: 30px;
+    flex: 50%;
+}
+
+.event_information .event_content{
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 1.625;
+}
+
+.event_information .event_name{
+    font-size: 2rem;
+}
+
+.event_information #next_page{
+    text-decoration: none;
+    color: black;
+}
+
+.event_information .event_content{
+    padding-right: 50px;
+}
+
+#Development, #Hackthon{
+    margin-top: 20px;
+}
+
+#Development{
+    background-color: rgb(255 243 204);
+}
+
+#Quiz{
+    background-color: rgb(211 226 233 / 97%);;
+}
+
+#Coding{
+    background-color: rgb(255 214 214);
+}
+
+#Hackthon{
+    background-color: rgb(224 255 245);
+}
+
+.know_more_arrow{
+    width: 2%;
+    transform: rotate(-90deg);
+    margin: 0;
+    padding: 0;
+}
+
+#first_arrow{
+    margin-left: 5px;
+}
+
+#second_arrow{
+    position: relative;
+    right: 6px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .event_information{
+        flex-direction: column;
+        margin: 47px;
+    }
+
+    .event_information .rightSymbols {
+        margin-top: 63px;
+    }
+
+    .event_information .event_content {
+        padding-right: 0px;
+    }
+  }
+

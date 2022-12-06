@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@300;700&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    --main_color: #000000;
+    font-family: 'Roboto', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+/* linear-gradient(29deg ,#7f5050, #fffefe,#525151);
+ */
