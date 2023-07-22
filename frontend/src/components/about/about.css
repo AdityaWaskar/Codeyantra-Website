@@ -1,0 +1,28 @@
+.about_container{ 
+    margin: 0 10vw;
+    margin-bottom: 5vh;
+}
+
+.about_container .logo{
+    width: 15vw;
+    margin: 40px 0;
+    margin-inline: auto;
+}
+
+.about_container img{ 
+    width: 100%;
+}
+
+.about_container .mainContent p{
+    font-weight: 500;
+    line-height: 25px;
+    word-spacing: 3px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-align: justify;
+}
+@media screen and (max-width: 823px) {
+    .about_container .logo{
+        width: 50vw;
+    }
+}

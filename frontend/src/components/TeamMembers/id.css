@@ -1,0 +1,104 @@
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    position: relative;
+    width: 254px;
+    height: 321px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgb(177 94 94 / 39%);
+    border-radius: 15px; 
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    border: 3px solid #ffadad;
+}
+
+.id .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.id:hover .container{
+    opacity: 0.5;
+    z-index: 0;
+    transform: scale(1.1);
+}
+
+.id .img{
+    position: relative;
+  width: 150px;  
+  height: 150px;  
+  overflow: hidden;
+  border-radius: 50%;
+  border: 10px solid rgba(0, 0, 0, 0.25);
+}
+
+.id img{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.id .name{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    overflow: hidden;
+    line-height: 1.1em;
+}
+
+.id .role{
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: initial;
+    color: #ff2929;
+}
+
+.id .socialMedia{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    position: absolute;    
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+
+.id .icon{
+    color: black;
+    font-size: 30px;
+    transition: 0.5s;
+    margin-left: 12px;
+    z-index: 1;
+}
+
+.id .icon:hover{
+    font-size: 40px;
+}
+
+.id .icon:hover{
+    cursor: pointer;
+}
+
+.id .socialMedia:hover{
+    opacity: 1;
+}
+ 
+
+

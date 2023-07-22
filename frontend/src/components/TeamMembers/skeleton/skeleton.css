@@ -1,0 +1,12 @@
+.about_skeleton_container .container :is(.name, .role){
+    width: 100%;
+}
+
+.about_skeleton_container .container .role{
+    height: 24px;
+}
+
+.about_skeleton_container{
+    pointer-events: none;
+    background-color: #00000036;
+}

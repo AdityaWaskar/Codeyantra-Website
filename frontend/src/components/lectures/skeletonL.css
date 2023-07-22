@@ -1,0 +1,23 @@
+.lectureSkeleton{
+    width: 23vw;
+    height: 156px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.lectureSkeleton .lect_img{
+    flex: 1;
+}
+
+.lectureSkeleton .lect_info{
+    flex: 2;
+}
+
+.lectureSkeleton .info{
+    width: 100%;
+    z-index: 3; 
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}

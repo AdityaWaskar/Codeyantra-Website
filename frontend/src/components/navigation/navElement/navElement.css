@@ -1,0 +1,54 @@
+nav .element{
+    margin-top: 30px;
+    list-style: none;
+} 
+
+nav .element a{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li .icon-placeholder svg{
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+}
+
+nav li .text-placeholder{
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+nav li:hover{
+    cursor: pointer;
+}
+
+nav li{ 
+    padding: 10px 0;
+    padding-left: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+ 
+
+nav li::before{
+    content: "";
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+    width: 120px;
+    height: 120px;
+    background-color: #f39c9cb8;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+    z-index: -1;
+}
+
+nav li:hover::before{
+    width: 500px;
+    height: 500px;
+}

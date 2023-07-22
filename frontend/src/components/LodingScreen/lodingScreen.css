@@ -1,0 +1,21 @@
+.lodingScreenContainer{
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.lodingScreenContainer .lottieImg{
+    width: 50%;
+    /* height: 400px; */
+}
+
+@media screen and (max-width: 500px) {
+    .lodingScreenContainer .lottieImg{
+        width: 80%;
+    }
+}
+
+
